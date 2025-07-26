@@ -1,0 +1,61 @@
+    What is dsa ?
+    -> data structures and algorithms
+
+        data structures -> is the way to store the data and organize it
+        algorithms -> mean steps taken to make a decision
+
+
+dsa types 
+
+-> Liner
+        -> array
+
+        -> linked list
+            -> singly linked list
+            -> doubly linked list
+            -> circular linked list
+        -> stack
+            -> array stack
+            -> linked list stack    
+
+        -> queue
+            -> circular queue
+            -> priority queue
+            -> deque (double ended queue)
+    
+
+-> non-liner    
+        -> tree
+        -> graph
+
+
+
+void main()
+    void -> return type
+    main -> function 
+    () -> arguments
+    {
+        // code goes here
+    }
+
+
+array []
+
+
+int a[10] -> 1D
+
+[][] -> MD
+
+a[0] - a[9]
+0 1  2  3 4 .....-> index 
+
+
+array always start with 0   
+
+    ends with SIZE - 1
+
+searching 
+sorting
+display
+
+---------------------------
