@@ -9,15 +9,32 @@ int location;
 // to add the Nubmer
 void add()
 {
-    if (SIZE == -1) // sat  // dy
+    int temp;
+    int i;
+
+    printf("\n Enter the Nubmer ");
+    scanf("%d", &num);
+
+    for (i = 0; i < SIZE; i++)
+    {
+        if (arr[i] == 0) // Find the first empty slot
+        {
+            arr[i] = num;
+            temp = 1;
+            break;
+        }
+    }
+    printf("The Number Added Successfully %d", num);
+
+    if (temp == 0) // sat  // dy
     {
         printf("\n The Array is Full");
     }
-    else
-    {
-        printf("\n Enter the Nubmer ");
-        scanf("%d", &num);
-    }
+
+    // else
+    // {
+    // }
+    // temp = arr[i] + temp;
 }
 
 // Display all Numbers
@@ -26,7 +43,10 @@ void display()
     int i;
     for (i = 0; i < SIZE; i++)
     {
-        printf("%d", arr[i]);
+        if (arr[i] != 0) // only display if it's not empty    
+        {
+            printf("%d", arr[i]);
+        }
     }
 }
 
